@@ -4,6 +4,8 @@ class Oyun:
         self.depolama = depolama
         self.ram = ram
 
+    def __str__(self):
+        return self.isim
 
 if __name__ == "__main__":
     cs = Oyun("Counter-Strike",20, 8)
