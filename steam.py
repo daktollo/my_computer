@@ -10,18 +10,13 @@ class Steam:
         self.oyunlar.append(oyun1)
         self.oyunlar.append(oyun2)
 
+    def oyunlari_listele(self):
+        for oyun in self.oyunlar:
+            print(oyun)
 
 if __name__ == "__main__":
     steam = Steam()
     steam.varsayilan_oyunlari_ekle()
 
-    sayac = 0
-    while sayac < len(steam.oyunlar):
-        print(steam.oyunlar[sayac].isim)
-        sayac += 1
-
-
-    for oyun in steam.oyunlar:
-        print(oyun)
-
+    steam.oyunlari_listele()
 
