@@ -5,8 +5,8 @@ class Steam:
         self.oyunlar = []
 
     def varsayilan_oyunlari_ekle(self):
-        oyun1 = Oyun("test1", 30, 4)
-        oyun2 = Oyun("test2", 30, 4)
+        oyun1 = Oyun("test1", 30, 4, "windows")
+        oyun2 = Oyun("test2", 30, 4, "windows")
         self.oyunlar.append(oyun1)
         self.oyunlar.append(oyun2)
 
